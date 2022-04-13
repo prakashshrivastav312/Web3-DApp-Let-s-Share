@@ -85,6 +85,7 @@ App = {
   render: async () => {
     $("#meta").html(App.account)
     $("#showpage").show();
+    $("#showpages").show();
   } ,
   donate1:async()=>{
 
