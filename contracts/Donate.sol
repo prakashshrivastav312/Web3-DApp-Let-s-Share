@@ -10,4 +10,6 @@ contract Donate{
      function donates() payable public {
         total=total+msg.value;
      }  
+
+    
 }

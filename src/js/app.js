@@ -93,7 +93,7 @@ App = {
     var amount=parseInt($("#amount").val());
     var a=amount*1000000000000000000;
 
-    await App.crowd.donates({from:App.account,value:a});
+    await App.crowd.donates({from:App.account,value:a.toString()});
 
    },
    balance: async()=>{
