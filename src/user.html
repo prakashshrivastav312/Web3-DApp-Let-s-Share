@@ -74,12 +74,7 @@
     </header>
     
     <div class="container">
-      <div class="row">
-        <div class="col" style="text-align: center;">
-
-          <button type="button" class="btn btn-success btn-lg" onclick="App.load();">Click Here To View Your Profile</button>
-        </div>
-      </div>
+      
      <div class="row" style="display: none;" id="showpages">
        
        <div class="col col-12 col-md-6">
@@ -101,18 +96,41 @@
             </tr>
             <tr>
               <td>Address</td>
-              <td><textarea type="text" class="form-control" id="ad"></textarea></td>
+              <td><input type="text" class="form-control" id="ad"></input></td>
             </tr>
             <tr>
+              <td>You are :</td>
+              <td><div>
+                
+                <select class="form-control" id="role" onchange="showDiv('hidden_div', this)">
+                  
+                  <option value="1"  >Passenger</option>
+                  <option value="2" >Driver</option>
+                 
+                </select>
+              </div></td>
+            </tr>
+            
+              
+            
+           
+            
+            
+          </table>
+          <div id="hidden_div" style="display: none;">
+            <tr>
+              
               <td>Car Number</td>
               <td><input type="text" class="form-control" id="cn"></td>
+          
             </tr>
+          
             <tr>
               <td>Car Model</td>
               <td><div>
                 
                 <select class="form-control" id="cm">
-                  <option selected >Choose...</option>
+                  <option selected >NA</option>
                   <option>Swift</option>
                   <option>Honda</option>
                   <option>Renault Kwid</option>
@@ -122,12 +140,18 @@
               </div></td>
             </tr>
           
-            <tr>
-              <td colspan="2" style="text-align: center;"><button class="btn btn-primary btn-lg" onclick="App.signUP()" >Register</button></td>
-            </tr>
-          </table>
-       </div>
+        </div>
+        <tr>
+          <td colspan="2" style="text-align: center;"><button class="btn btn-primary btn-lg" onclick="App.signUP()" >Register</button></td>
+        </tr>
        <div class="col col-12 col-md-6">
+        
+       </div>
+      
+     </div>
+     <div class="row">
+      <div class="col" style="text-align: center;">
+
         <button type="button" class="btn btn-primary btn-lg" onclick="App.displayItems()">VIEW ITEMS</button>
          <table class="table">           
           <tbody id="display">
@@ -155,11 +179,86 @@
           
 
          </table>
-       </div>
+      </div>
+    </div>
+
       
-     </div>
 
     </div>
+
+    <div class="row" id="DriverPage" style="display: none;">
+      <h1>Driver Profile</h1>
+      <div class="row">
+        <div class="col" style="text-align: center;">
+  
+          <!-- <button type="button" class="btn btn-primary btn-lg" onclick="App.displayItems()">VIEW ITEMS</button> -->
+           <table class="table">           
+            <tbody id="displayuser">
+                
+            </tbody>
+            <tbody id="name1">
+                
+            </tbody>
+            <tbody id="email1">
+                
+            </tbody>
+            <tbody id="phone1">
+                
+            </tbody>
+            <tbody id="addr1">
+                
+            </tbody>
+            <tbody id="carn">
+                
+            </tbody>
+            <tbody id="carm">
+                
+            </tbody>
+            
+            
+  
+           </table>
+        </div>
+      </div>
+    
+    </div>
+      <div class="row" id="PassengerPage" style="display: none;">
+        <h1>Passenger Profile</h1>
+        <div class="row">
+          <div class="col" style="text-align: center;">
+    
+            <!-- <button type="button" class="btn btn-primary btn-lg" onclick="App.displayItems()">VIEW ITEMS</button> -->
+             <table class="table">           
+              <tbody id="displayuser1">
+                  
+              </tbody>
+              <tbody id="name1">
+                  
+              </tbody>
+              <tbody id="email1">
+                  
+              </tbody>
+              <tbody id="phone1">
+                  
+              </tbody>
+              <tbody id="addr1">
+                  
+              </tbody>
+              <tbody id="carn">
+                  
+              </tbody>
+              <tbody id="carm">
+                  
+              </tbody>
+              
+              
+    
+             </table>
+          </div>
+        </div>
+      
+      </div>
+    
     <!-- <button type="button" class="btn btn-primary" onclick="App.load()">Display From Blockchain</button>
     <h1>
       Welcome to Blockchain
@@ -176,7 +275,13 @@
    
     <h5 id="phno"></h3> -->
 
-   
+   <script>
+
+    function showDiv(divId, element)
+   {
+    document.getElementById(divId).style.display = element.value == 2 ? 'block' : 'none';
+   }
+   </script>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
