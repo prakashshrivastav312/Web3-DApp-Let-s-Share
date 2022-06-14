@@ -114,7 +114,7 @@
         "id": 2,
         "nodeType": "ImportDirective",
         "scope": 68,
-        "sourceUnit": 290,
+        "sourceUnit": 257,
         "src": "66:19:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -196,7 +196,7 @@
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_contract$_PST_$289",
+              "typeIdentifier": "t_contract$_PST_$256",
               "typeString": "contract PST"
             },
             "typeName": {
@@ -204,10 +204,10 @@
               "id": 7,
               "name": "PST",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 289,
+              "referencedDeclaration": 256,
               "src": "181:3:0",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_PST_$289",
+                "typeIdentifier": "t_contract$_PST_$256",
                 "typeString": "contract PST"
               }
             },
@@ -294,7 +294,7 @@
                         "name": "msg",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 387,
+                        "referencedDeclaration": 384,
                         "src": "279:3:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_message",
@@ -342,7 +342,7 @@
                       "referencedDeclaration": 8,
                       "src": "300:5:0",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_PST_$289",
+                        "typeIdentifier": "t_contract$_PST_$256",
                         "typeString": "contract PST"
                       }
                     },
@@ -357,13 +357,13 @@
                       "referencedDeclaration": 13,
                       "src": "306:6:0",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_PST_$289",
+                        "typeIdentifier": "t_contract$_PST_$256",
                         "typeString": "contract PST"
                       }
                     },
                     "src": "300:12:0",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_PST_$289",
+                      "typeIdentifier": "t_contract$_PST_$256",
                       "typeString": "contract PST"
                     }
                   },
@@ -394,7 +394,7 @@
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_PST_$289",
+                    "typeIdentifier": "t_contract$_PST_$256",
                     "typeString": "contract PST"
                   },
                   "typeName": {
@@ -402,10 +402,10 @@
                     "id": 12,
                     "name": "PST",
                     "nodeType": "UserDefinedTypeName",
-                    "referencedDeclaration": 289,
+                    "referencedDeclaration": 256,
                     "src": "243:3:0",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_PST_$289",
+                      "typeIdentifier": "t_contract$_PST_$256",
                       "typeString": "contract PST"
                     }
                   },
@@ -464,7 +464,7 @@
                         "name": "msg",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 387,
+                        "referencedDeclaration": 384,
                         "src": "399:3:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_message",
@@ -551,7 +551,7 @@
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 387,
+                            "referencedDeclaration": 384,
                             "src": "473:3:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
@@ -605,10 +605,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        390,
-                        391
+                        387,
+                        388
                       ],
-                      "referencedDeclaration": 390,
+                      "referencedDeclaration": 387,
                       "src": "465:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -678,7 +678,7 @@
                             "name": "this",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 403,
+                            "referencedDeclaration": 400,
                             "src": "536:4:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_contract$_Donate_$67",
@@ -737,7 +737,7 @@
                         "referencedDeclaration": 8,
                         "src": "512:5:0",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_PST_$289",
+                          "typeIdentifier": "t_contract$_PST_$256",
                           "typeString": "contract PST"
                         }
                       },
@@ -748,7 +748,7 @@
                       "lValueRequested": false,
                       "memberName": "balanceOf",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 136,
+                      "referencedDeclaration": 103,
                       "src": "512:15:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_view$_t_address_$returns$_t_uint256_$",
@@ -823,7 +823,7 @@
                         "referencedDeclaration": 8,
                         "src": "553:5:0",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_PST_$289",
+                          "typeIdentifier": "t_contract$_PST_$256",
                           "typeString": "contract PST"
                         }
                       },
@@ -834,7 +834,7 @@
                       "lValueRequested": false,
                       "memberName": "transfer",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 200,
+                      "referencedDeclaration": 167,
                       "src": "553:14:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_uint256_$returns$_t_bool_$",
@@ -972,7 +972,7 @@
       },
       {
         "attributes": {
-          "SourceUnit": 290,
+          "SourceUnit": 257,
           "absolutePath": "project:/contracts/PST.sol",
           "file": "./PST.sol",
           "scope": 68,
@@ -1073,7 +1073,7 @@
                 "attributes": {
                   "contractScope": null,
                   "name": "PST",
-                  "referencedDeclaration": 289,
+                  "referencedDeclaration": 256,
                   "type": "contract PST"
                 },
                 "id": 7,
@@ -1161,7 +1161,7 @@
                         "attributes": {
                           "contractScope": null,
                           "name": "PST",
-                          "referencedDeclaration": 289,
+                          "referencedDeclaration": 256,
                           "type": "contract PST"
                         },
                         "id": 12,
@@ -1236,7 +1236,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 387,
+                                  "referencedDeclaration": 384,
                                   "type": "msg",
                                   "value": "msg"
                                 },
@@ -1405,7 +1405,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 387,
+                                  "referencedDeclaration": 384,
                                   "type": "msg",
                                   "value": "msg"
                                 },
@@ -1504,10 +1504,10 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                390,
-                                391
+                                387,
+                                388
                               ],
-                              "referencedDeclaration": 390,
+                              "referencedDeclaration": 387,
                               "type": "function (bool) pure",
                               "value": "require"
                             },
@@ -1548,7 +1548,7 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 387,
+                                      "referencedDeclaration": 384,
                                       "type": "msg",
                                       "value": "msg"
                                     },
@@ -1651,7 +1651,7 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "member_name": "balanceOf",
-                              "referencedDeclaration": 136,
+                              "referencedDeclaration": 103,
                               "type": "function (address) view external returns (uint256)"
                             },
                             "children": [
@@ -1714,7 +1714,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 403,
+                                  "referencedDeclaration": 400,
                                   "type": "contract Donate",
                                   "value": "this"
                                 },
@@ -1771,7 +1771,7 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "member_name": "transfer",
-                              "referencedDeclaration": 200,
+                              "referencedDeclaration": 167,
                               "type": "function (address,uint256) external returns (bool)"
                             },
                             "children": [
@@ -1911,15 +1911,15 @@
     "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
   },
   "networks": {
-    "4": {
+    "5777": {
       "events": {},
       "links": {},
-      "address": "0xD38D9E2EC0F1F51EC46Fca1685B332aa4E09d38d",
-      "transactionHash": "0x86b30582c2eca0c96c765778f241930be18f9e0cd728c19fe5ea788988ad5a46"
+      "address": "0xd061Ac211AEfDd64112759b0eDE1798d203D00Bc",
+      "transactionHash": "0x1aacd34adeecda4d522c67c529b912cdcd8a6a38587c8afaf1ea3953b623cc0b"
     }
   },
   "schemaVersion": "3.4.6",
-  "updatedAt": "2022-04-24T19:51:26.412Z",
+  "updatedAt": "2022-05-19T04:24:39.454Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}

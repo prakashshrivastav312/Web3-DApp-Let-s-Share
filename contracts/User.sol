@@ -6,6 +6,9 @@ contract User{
     uint public id=0;
     mapping(address=>string) public roles;
     mapping(address=>uint) public num;
+    mapping(address=>string) public longitude;
+    mapping(address=>string) public latitude;
+    
     struct us{
     string  username;
     string email;
@@ -22,5 +25,9 @@ contract User{
         user[id]=us(_username,_email,_phone,_addr,_role,_cn,_cm);
         roles[msg.sender]=_role;
         num[msg.sender]=id;
+    }
+    function updatelatlon(string memory _long, string memory _late) public{
+        longitude[msg.sender]=_long;
+        latitude[msg.sender]=_late;
     }
 }
